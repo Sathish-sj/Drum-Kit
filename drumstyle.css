@@ -1,0 +1,126 @@
+body {
+    background-image: url("Images/photo-1588032786045-59cefda005c0.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-size: 60px;
+
+    background: linear-gradient(to right, #D4ADFC, #e819f7,  #D4ADFC, #e819f7);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+button {
+    padding: 10px 0;
+    background-color:#16171e ;
+    border-radius: 10px;
+    border-width: 7px;
+    border: 7px solid #D4ADFC;
+    height: 120px;
+    width: 120px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+}
+
+
+button:hover {
+    border-color: #5C469C;
+    /* box-shadow: 0 19px 38px rgba(216, 210, 210, 0.3), 0 15px 12px rgba(204, 193, 193, 0.22); */
+}
+
+p {
+    font-size: large;
+    font-style: italic;
+}
+
+.maindiv {
+    display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 80px);
+  gap: 100px; /* you can adjust the gap as needed */
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.copyright {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    margin-top: 75px;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+i {
+    padding-left: 5px;
+    color: white
+}
+
+i:hover {
+    color: #D4ADFC;
+    transform: scale(1.5);
+}
+
+.annimation1 {
+    border: 7px solid #16171e;
+    box-shadow: 0 25.6px 57.6px 20px rgba(195, 0, 255, 0.979), 0 4.8px 14.4px 10px rgba(153, 0, 255, 0.979);
+}
+
+
+.annimation2 {
+    border: 7px solid #16171e;
+    box-shadow: 0 25.6px 57.6px 20px rgba(247, 60, 238, 0.979), 0 4.8px 14.4px 10px rgba(247, 60, 238, 0.979);
+}
+
+.annimation3 {
+    border: 7px solid #16171e;
+    box-shadow: 0 25.6px 57.6px 20px rgba(0, 247, 255, 0.979), 0 4.8px 14.4px 10px rgba(0, 247, 255, 0.979);
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    body {
+        background-image: url("Images/istockphoto-1362422378-170667a.jpg");
+    }
+
+    button {
+        padding: 5px 0;
+        width: 90%;
+        height: 118%;
+    }
+
+    p {
+        font-size: small;
+        font-style: italic;
+    }
+
+    .maindiv {
+        gap:  60px 50px;
+        grid-template-columns: repeat(3, 100px);
+    }
+
+    h1 {
+        font-size: 45px;
+        font-family: 'Reem Kufi Fun', sans-serif;
+        padding-top: 10px;
+    }
+
+    .copyright {
+        padding-top: 15px;
+        padding-bottom: 70px;
+    }
+}
+
+
